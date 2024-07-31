@@ -19,7 +19,7 @@ function iterateFib(num){
     console.log(Fib);
 };
 
-iterateFib(8);
+iterateFib(10);
 
 function recurseFib(num, Fib = [0, 1]) {
     if (Fib.length === 0){
@@ -37,4 +37,4 @@ function recurseFib(num, Fib = [0, 1]) {
     }
 };
 
-console.log(recurseFib(8));
+console.log(recurseFib(10));
